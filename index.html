@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/src/styles/Shooper_Index.css">
+    <title>Shopper Responsive Website</title>
+    <style>
+        @media screen and (orientation:landscape){
+    .bi-facebook{
+        color:blue;
+    }
+.bi-twitter{
+    color:darkturquoise;
+}
+.bi-instagram{
+    color:red;
+}
+.bi-person{
+    color:black;
+}
+.d-down{
+    margin-left:50px;
+}
+.first-elements{
+    margin-left:250px;
+}
+.links-1{
+    margin-left:100px;
+}
+.links-2{
+    margin-left:150px;
+}
+select{
+    margin:10px;    
+}
+.border{
+    border-left:3px solid black;
+}
+ul{
+    list-style:none;
+    display:flex;
+    line-height:20px;
+}
+.header-1{
+    position:sticky;
+    top:0px;
+    background-color:aliceblue;
+    border:2px solid gray;
+    box-shadow:2px 2px 2px gray;
+}
+.header-3{
+    text-align:center;
+    background-color:black;
+    color:white;
+    padding:5px;
+    border:2px solid black;
+    box-shadow:2px 2px 2px black;
+}
+.title-elements-2{
+    margin-left:100px;
+    justify-content:space-around;
+}
+.pics{
+    margin-top:10px;
+    display:grid;
+    grid-template-columns:3fr 3fr 3fr;
+}
+#font{
+ margin-top:-280px;
+}
+.header-2{
+    position:sticky;
+    top:0;
+    padding:10px;
+    background-color:azure;
+    border:2px solid black;
+    box-shadow:2px 2px 2px gray;
+    display:flex;
+    justify-content:space-around;
+    margin-top:5px;
+}
+.header-title{
+    font-size:40px;
+    font-weight:bold;
+}
+.header-function{
+    font-size:20px;
+    font-weight:bold;
+    display:grid;
+    grid-template-columns:2fr 2fr 2fr 2fr 2fr 2fr;
+    align-items:center;
+    grid-gap:30px;
+}
+.header-link{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-gap:30px;
+    align-items:center;
+}
+main{
+    margin-top:10px;
+    border:2px solid black;
+    box-shadow:2px 2px 2px gray;
+}
+.img-1{
+    border:4px solid yellow;
+    background-image:url(/public/Images/Shopper_boy.jpg);
+    height:400px;
+    background-repeat:no-repeat;
+    background-size:440px 440px;
+    background-position:left;
+    color:white;
+    align-items: center;
+}
+.img-2{
+    border:4px solid yellow;
+    background-image:url(/public/Images/Shopper_child.jpg);
+    height:400px;
+    background-repeat:no-repeat;
+    background-size:440px 440px;
+    background-position:top center;
+    margin-top:-400px;
+    color:white;
+}
+.img-3{
+    border:4px solid yellow;
+    background-image:url(/public/Images/Shopper_Girl.jpg);
+    height:400px;
+    background-repeat:no-repeat;
+    background-size:440px 440px;
+    background-position:right;
+    margin-top:-400px;
+    color:white;
+}
+.fig-cap1{
+    font-size:30px;
+    text-align:left;
+    margin-left:120px;
+}
+.fig-cap2{
+    text-align:center;
+}
+.fig-cap3{
+    text-align:right;
+    width:1170px;
+}
+.section-title-1{
+    display:grid;
+    grid-template-columns:3fr 3fr 3fr 3fr;
+    margin-top:20px;
+}
+.section-sub-title{
+    font-weight:bold;
+}
+.section-title-2{
+    text-align:center;
+    margin-top:100px;
+}
+.section-sub-text{
+    font-size:30px;
+    font-weight:bold;
+}
+.img-4{
+    background-image:url(/public/Images/Fashion1.jpg);
+    height:400px;
+    background-repeat:no-repeat;
+    text-align: center;
+    width:450px;
+}
+.img-4:hover{
+    transform:rotateX(360deg);
+    transition: 5s;
+}
+.img-5{
+    background-image:url(/public/Images/Fashion2.jpeg);
+    height:400px;
+    background-repeat:no-repeat;
+    text-align:center;
+    color:white;
+}
+.img-5:hover{
+    transform:rotateY(360deg);
+    transition: 5s;
+}
+.section-image-1{
+    display:grid;
+    grid-template-columns:6fr 6fr;
+    margin-top:100px;
+}
+.section-image-2{
+    display:grid;
+    grid-template-columns:6fr 6fr;
+    margin-top:100px;
+}
+.img-6{
+    background-image:url(/public/Images/Atharwa.jpg);
+    height:400px;
+    background-repeat:no-repeat;
+    text-align:center;
+    margin-right:50px;
+}
+.img-6:hover{
+    transform:rotateZ(60deg);
+    transition:5s;
+}
+.img-7{
+    background-image:url(/public/Images/Fashion3.jpeg);
+    height:400px;
+    background-repeat:no-repeat;
+    background-size:400px 400px 300px 300px;
+}
+.img-7:hover{
+    transform:rotate(10deg);
+    transition:5s;
+}
+.girls-section{
+    margin-top:100px;
+}
+.girls-section-1{
+    display:grid;
+    grid-template-columns:2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+    grid-gap:20px;
+}
+.bi-star-fill{
+    color:gold;
+}
+.boys-section{
+    margin-top:100px;
+}
+.boy-1{
+    background-image:url(/public/Images/BFC-1.jpeg);
+    height:300px;
+    background-repeat:no-repeat;
+    background-position:center;
+    border:1px solid gray;
+    margin-bottom:5px;
+    box-shadow:2px 2px 2px gray;
+}
+.boy-1:hover{
+    background-image:url(/public/Images/BFC-2.jpeg);
+    height:300px;  
+    background-repeat:no-repeat;
+}
+.boy-2{
+    background-image:url(/public/Images/BFC-3.jpeg);
+    height:300px;
+    background-repeat:no-repeat;
+    border:1px solid gray;
+    background-position:left center;
+    margin-bottom:5px;
+    margin-bottom:5px;
+    box-shadow:2px 2px 2px gray;
+}
+.boy-2:hover{
+    background-image:url(/public/Images/BFC-4.jpg);
+    height:300px;
+}
+.boy-3{
+    background-image:url(/public/Images/BFC-10.jpg);
+    height:300px;
+    background-repeat:no-repeat;
+    background-position:center;
+    border:1px solid gray;
+    margin-bottom:5px;
+    box-shadow:2px 2px 2px gray;
+}
+.boy-3:hover{
+    background-image:url(/public/Images/BFC-11.jpg);
+    height:300px;
+}
+.text{
+    text-align: right;
+}
+.footer-section{
+    display:grid;
+    grid-template-columns:3fr 3fr 3fr 3fr ;
+    align-items: center;
+    margin-top:50px;
+}
+.top{
+    position:fixed;
+    bottom:300px;
+    right:0;
+    width:100px;
+}
+#f-font{
+    font-weight:bolder;
+}
+.down{
+    display:flex;
+    justify-content: space-between;
+    font-weight:bolder;
+}
+}
+@media screen and (orientation:portrait){
+    
+}   
+
+    </style>
+</head>
+<body class="container-fluid">
+    
+    <div class="header-1">
+        <span class="bi bi-truck"></span>
+        <span>
+            <font size="2" face="showcard Gothic">FREE SHIPPING WORLDWIDE</font>
+        </span>
+        <span class="d-down">
+            <span class="bi bi-flag">
+                <select>
+                    <option>India</option>
+                    <option>Russia</option>
+                    <option>Germany</option>
+                </select>
+            </span>
+            <span class="border"></span>
+            <span>
+                <select>
+                    <option>USD</option>
+                    <option>EUR</option>
+                </select>
+            </span>
+            <span class="border"></span>
+            <span>
+                <select>
+                    <option>English</option>
+                    <option>French</option>
+                    <option>German</option>
+                </select>
+            </span>
+        </span>
+        <span class="first-elements">
+            <span>Shopping</span>&nbsp;&nbsp;&nbsp;  
+            <span>FAQ</span>&nbsp;&nbsp;&nbsp; 
+            <span>Content</span>&nbsp;&nbsp;&nbsp; 
+        </span>
+        <span class="links-1">
+           <a href="https://facebook.com/" target="_blank"><span class="bi bi-facebook"></span></a>&nbsp; &nbsp; 
+            <a href="https://instagram.com/" target="_blank"><span class="bi bi-instagram"></span></a>&nbsp; &nbsp;  
+            <a href="https://twitter.com/" target="_blank"><span class="bi bi-twitter"></span></a>&nbsp; &nbsp; 
+            <a href="https://gmail.com/" target="_blank"><span class="bi bi-person"></span></a>&nbsp; &nbsp; 
+        </span>
+    </div>
+    <div class="header-2">
+        <div class="header-title">
+            Shopper.
+        </div>
+
+        <div class="header-function">
+            <div>Home</div>
+            <div>Catalog</div>
+            <div>Shop</div>
+            <div>Pages</div>
+            <div>Blog</div>
+            <div>Docs</div>
+        </div>
+
+        <div class="header-link">
+            <div>
+                <a href="#"><span class="bi bi-search"></span></a>
+            </div>
+            <div>
+                <a href="#"><span class="bi bi-person"></span></a>
+            </div>
+            <div>
+                <a href="#"><span class="bi bi-heart"></span></a>
+            </div>
+                <a href="#"><span class="bi bi-cart"></span></a>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="header-3">
+            <font size="3" face="arial">⚡️ HAPPY HOLIDAY DEALS ON EVERYTHING ⚡️</font>
+        </div>
+    </header>
+    
+    <main>
+        <div class="img-1">
+            <div class="fig-cap1">
+                <h1>Men</h1>
+                <div class="btn btn-outline-light">Shop for men<span class="bi bi-arrow-right"></span></div>
+            </div>
+        </div>
+        
+
+        <div class="img-2">
+            <div class="fig-cap2">
+                <h1>Child</h1>
+                <div class="btn btn-outline-light">Shop for Child<span class="bi bi-arrow-right"></span></div>
+            </div>
+        </div>
+
+        <div class="img-3"> 
+            <div class="fig-cap3">
+                <h1>Women</h1>
+                <div class="btn btn-outline-light">Shop for Women<span class="bi bi-arrow-right"></span></div>
+            </div>
+        </div>
+    </main>
+
+    <section class="container">
+        <div class="section-title-1">
+            <div>
+                <div class="bi bi-truck-front-fill"><span class="section-sub-title">FREE SHIPPING</span></div>
+                <div>From all orders over $100</div>
+            </div>
+            <div>
+                <div class="bi bi-archive-fill"><span class="section-sub-title">FREE RETURN</span></div>
+                <div>Return money within 30 days</div>
+            </div>
+            <div>
+                <div class="bi bi-apple"><span class="section-sub-title">SECURE SHOPPING</span></div>
+                <div>You're in safe hands</div>
+            </div>
+            <div>
+                <div class="bi bi-tree-fill"><span class="section-sub-title">OVER 10,000 STYLES</span></div>
+                <div>We have Everything you need</div>
+            </div>
+        </div>
+        <hr>
+
+        <div class="section-title-2">
+            <h7>NEW COLLECTION</h7>
+            <p class="section-sub-text">Best Picks 2019</p>
+            <p>Appear, dry there darkness they're seas, dry waters thing fly midst. Beast,</p>
+            <p>above fly brought Very green.</p>
+        </div>
+
+        <div class="section-image-1">
+            <div class="img-4">
+                <h1>Summer collection</h1>
+                <div class="btn btn-outline-secondary">Shop Now<span class="bi bi-arrow-right"></span></div>
+            </div>
+
+            <div class="img-5">
+                <h1>Boys Collection</h1>
+                <div class="btn btn-outline-light">Shop Now<span class="bi bi-arrow-right"></span></div>
+            </div>
+        </div>
+
+        <div class="section-image-2">
+            <div class="img-6">
+                <h1>Kids Party Wear</h1>
+                <div class="btn btn-outline-primary">Shop Now<span class="bi bi-arrow-right"></span></div>
+            </div>
+
+            <div class="img-7">
+                <h1>Mens Fashion</h1>
+                <div class="btn btn-outline-primary">Shop Now<span class="bi bi-arrow-right"></span></div>
+            </div>
+        </div>
+        <hr>
+
+        <div class="girls-section">
+            <h1 style="text-align: center;">Girls Section</h1>
+            <div class="girls-section-1">
+                <div>
+                    <img src="./public/images/FC-1.jpg" height="300px" width="200px">
+                    <div>
+                        <div><font face="showcard gothic">Dress</font></div>
+                        <div><font face="showcard gothic">Cotton Printed Dress</font></div>
+                        <div>&#8377; 999/-</div>
+                        <div>
+                            <font face="showcard gothic">Ratting:</font>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="./public/images/FC-2.webp" height="300px" width="200px">
+                    <div>
+                        <div><font face="showcard gothic">Dress</font></div>
+                        <div><font face="showcard gothic">Cotton Printed Dress</font></div>
+                        <div>&#8377; 999/-</div>
+                        <div>
+                            <font face="showcard gothic">Ratting:</font>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="./public/images/FC-3.jpg" height="300px" width="200px">
+                    <div>
+                        <div><font face="showcard gothic">Dress</font></div>
+                        <div><font face="showcard gothic">Cotton Printed Dress</font></div>
+                        <div>&#8377; 999/-</div>
+                        <div>
+                            <font face="showcard gothic">Ratting:</font>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="./public/images/FC-4.jpg" height="300px" width="200px">
+                    <div>
+                        <div><font face="showcard gothic">Dress</font></div>
+                        <div><font face="showcard gothic">Cotton Printed Dress</font></div>
+                        <div>&#8377; 999/-</div>
+                        <div>
+                            <font face="showcard gothic">Ratting:</font>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="./public/images/FC-5.jpg" height="300px" width="200px">
+                    <div>
+                        <div><font face="showcard gothic">Dress</font></div>
+                        <div><font face="showcard gothic">Cotton Printed Dress</font></div>
+                        <div>&#8377; 999/-</div>
+                        <div>
+                            <font face="showcard gothic">Ratting:</font>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="boys-section">
+            <h1 style="text-align:center;">Boys Section</h1> 
+            <div class="boys-section-1">
+                <div>
+                    <div style="width:600px;" class="boy-1">
+                        <div>
+                            <div><font face="showcard gothic">Dress</font></div>
+                            <div><font face="showcard gothic">Cotton Printed Dress</font></div>
+                            <div>&#8377; 999/-</div>
+                            <div>
+                                <font face="showcard gothic">Ratting:</font>
+                                <span class="bi bi-star-fill"></span>
+                                <span class="bi bi-star-fill"></span>
+                                <span class="bi bi-star-fill"></span>
+                                <span class="bi bi-star-fill"></span>
+                                <span class="bi bi-star-fill"></span>
+                            </div>
+                        </div>  
+                    </div>
+                <div>
+                    <div style="width:600px;" class="boy-2">
+                        <div  class="text">
+                            <div><font face="showcard gothic">Dress</font></div>
+                            <div><font face="showcard gothic">Cotton Printed Dress</font></div>
+                            <div>&#8377; 999/-</div>
+                            <div>
+                                <font face="showcard gothic">Ratting:</font>
+                                <span class="bi bi-star-fill"></span>
+                                <span class="bi bi-star-fill"></span>
+                                <span class="bi bi-star-fill"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div style="width:600px;" class="boy-3">
+                        <div>
+                            <div><font face="showcard gothic">Dress</font></div>
+                            <div><font face="showcard gothic">Cotton Printed Dress</font></div>
+                            <div>&#8377; 999/-</div>
+                            <div>
+                                <font face="showcard gothic">Ratting:</font>
+                                <span class="bi bi-star-fill"></span>
+                                <span class="bi bi-star-fill"></span>
+                                <span class="bi bi-star-fill"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </section>
+
+    <aside class="top">
+        <a href="#"><span class="btn btn-danger"><span class="bi bi-arrow-up-circle-fill"></span></span></a>
+    </aside>
+    <hr>
+
+    <footer class="container-fluid">
+        <h1>Want style Ideas and Treats?</h1>
+        <div class="input-group">
+            <input type="text" placeholder="Enter Email*">
+            <div class="btn btn-primary">Subscribe</div>
+        </div>
+        <div>
+            <div>
+                <div><font face="arial" size="10px">Shopper.</font></div>
+                <div>
+                    <a href="https://facebook.com/" target="_blank"><span class="bi bi-facebook"></span></a>
+                    <a href="https://instagram.com/" target="_blank"><span class="bi bi-instagram"></span></a>
+                    <a href="https://twitter.com/" target="_blank"><span class="bi bi-twitter"></span></a>
+                    <a href="https://gmail.com/" target="_blank"><span class="bi bi-person"></span></a>
+                </div>
+            </div>
+            <div class="footer-section container">
+                <div>
+                    <div id="f-font">Support</div>
+                    <div>Contact Us</div>
+                    <div>FAQ's</div>
+                    <div>Size Guide</div>
+                    <div>Shipping & Return</div>
+                </div>
+                <div>
+                    <div id="f-font">Shop</div>
+                    <div>Men's Shopping</div>
+                    <div>Women's Shopping</div>
+                    <div>Kid's Shopping</div>
+                    <div>Discount</div>
+                </div>
+                <div>
+                    <div id="f-font">Company</div>
+                    <div>Our Story</div>
+                    <div>Careers</div>
+                    <div>Terms & Conditions</div>
+                    <div>Privacy & Cookie policy</div>
+                </div>
+                <div>
+                    <div id="f-font">CONTACT</div>
+                    <div>1-2022-5550105</div>
+                    <div>1-202-555-0106</div>
+                    <div>help@shopper.com</div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="down">
+            <div>
+                &#169; copyright 2023 shopper.com all right reserved.
+            </div>
+            <div>
+                Developer:Mr.pk
+            </div>
+        </div>
+        <hr>
+    </footer>
+</body>
+</html>
